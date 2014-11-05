@@ -1,6 +1,6 @@
 {
   "name": "timem",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "Get file modification time",
   "homepage": "http://github.com/coderaiser/timem",
