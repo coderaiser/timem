@@ -12,11 +12,11 @@ Get file modification time.
 ```js
 var time = require('timem');
 
-time.get('/etc/passwd', function(error, time) {
+time('/etc/passwd', function(error, time) {
     console.log(error || time);
 }
 
-time.get('/etc/passwd', function(error, 'raw', time) {
+time('/etc/passwd', 'raw', function(error, time) {
     console.log(error || time);
 }
 ```
