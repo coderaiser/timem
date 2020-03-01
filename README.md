@@ -12,13 +12,8 @@ Get file modification time.
 ```js
 var time = require('timem');
 
-time('/etc/passwd', function(error, time) {
-    console.log(error || time);
-}
-
-time('/etc/passwd', 'raw', function(error, time) {
-    console.log(error || time);
-}
+const result = await time('/etc/passwd');
+const rawResult = await time('/etc/passwd', 'raw');
 ```
 
 ## License
