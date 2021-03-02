@@ -1,5 +1,4 @@
-TimeM
-======
+# TimeM
 
 Get file modification time.
 
@@ -10,7 +9,7 @@ Get file modification time.
 ## Hot to use
 
 ```js
-var time = require('timem');
+const time = require('timem');
 
 const result = await time('/etc/passwd');
 const rawResult = await time('/etc/passwd', 'raw');

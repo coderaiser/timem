@@ -16,18 +16,25 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^6.8.0",
+    "eslint": "^7.21.0",
     "eslint-plugin-node": "^11.0.0",
-    "eslint-plugin-putout": "^3.2.1",
-    "madrun": "^5.4.4",
-    "putout": "^7.16.0"
+    "eslint-plugin-putout": "^7.2.1",
+    "madrun": "^8.8.1",
+    "putout": "^15.4.3",
+    "supertape": "^5.0.0",
+    "try-to-catch": "^3.0.0"
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=14"
   },
   "license": "MIT",
   "scripts": {
     "lint": "madrun lint",
-    "fix:lint": "madrun fix:lint"
+    "fresh:lint": "madrun fresh:lint",
+    "lint:fresh": "madrun lint:fresh",
+    "fix:lint": "madrun fix:lint",
+    "test": "madrun test",
+    "coverage": "madrun coverage",
+    "report": "madrun report"
   }
 }
